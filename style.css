@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(47, 88%, 63%);
+    width: 90vw;
+    height: 90vh;
+    font-family: 'Figtree', sans-serif;
+    font-size: 16px;
+}
+
+main{
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 5px;
+    height: 400px;
+    border-radius: 10px;
+    border: 1px solid hsl(0, 0%, 7%);
+    box-shadow: 5px 5px  hsl(0, 0%, 7%);
+    background-color: hsl(0, 0%, 100%);
+}
+main:hover{
+    box-shadow: 10px 10px  hsl(0, 0%, 7%);
+}
+.up{
+    width: 99%;
+    padding: 10px;
+}
+.up img{
+    max-width: 100%;
+    border-radius: 10px;
+
+}
+.down{
+    padding: 10px;
+}
+.learning h2{
+    background-color: hsl(47, 88%, 63%);
+    width: 80px;
+    padding: 3px;
+    padding-left: 7px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 16px;
+}
+.learning p{
+    font-size: 11px;
+    padding: 5px;
+}
+.foundations h2{
+    font-weight: 800;
+    font-size: 16px;
+    padding: 10px;
+}
+.foundations h2:hover{
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+}
+.foundations p{
+    font-size: 12px;
+    color: hsl(0, 0%, 50%);
+    padding: 5px;
+}
+.greg{
+    padding: 10px 0;
+}
+.greg img{
+    margin: 0 10px 0 0;
+    float: left;
+    width: 30px;
+    height: 30px;
+
+}
+.greg p{
+    font-weight: 800;
+    padding: 7px 0;
+    font-size: 11px;
+}
+@media (max-width:500px) {
+    main{
+        margin: 150px auto;
+        width: 90%;
+    }
+}
