@@ -6,13 +6,15 @@
 body{
     background-color: hsl(47, 88%, 63%);
     width: 90vw;
-    height: 90vh;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: 'Figtree', sans-serif;
     font-size: 16px;
 }
 
 main{
-    margin: 50px auto;
     display: flex;
     flex-direction: column;
     width: 300px;
@@ -82,7 +84,6 @@ main:hover{
 }
 @media (max-width:500px) {
     main{
-        margin: 150px auto;
         width: 90%;
     }
 }
